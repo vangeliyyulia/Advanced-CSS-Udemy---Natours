@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Julia",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
